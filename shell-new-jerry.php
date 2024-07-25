@@ -6,15 +6,23 @@
 	<link rel="icon" href="https://pub-071ea67114a54cc3a1d68875afee380f.r2.dev/topeng%20ano.jpg" type="image/x-icon">
 </head>
 
-<body background="https://pub-071ea67114a54cc3a1d68875afee380f.r2.dev/xjjerry.jpg" text="#ffffff">
+<body bgcolor="#1f1f1f" text="#ffffff">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 	@import url('https://fonts.googleapis.com/css?family=Dosis');
 	@import url('https://fonts.googleapis.com/css?family=Bungee');
 	@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+
+
 body {
-	font-family: "Dosis", cursive;
-	text-shadow:0px 0px 1px #757575;
+    background-image: url(https://pub-071ea67114a54cc3a1d68875afee380f.r2.dev/xjerry-removebg-preview.png);
+    background-attachment: fixed;
+        background-size: 35rem;
+        background-position: center;
+        background-repeat: no-repeat;
+    font-family: "Dosis", cursive;
+    text-shadow: 0px 0px 1px #757575;
 }
 
 body::-webkit-scrollbar {
